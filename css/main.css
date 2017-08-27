@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* research mechanics later */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #fff;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffa07a;
+}
+
+a:not(:last-child) {
+    margin: 0 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* research mechanics later */
+  align-items: center;
+  padding: 5px 3%;
+  background: #444;
+  color: #fff;
+}
+
+.header a {
+  font-size: 1.5em;
+  font-family: 'Lobster', sans-serif;
+}
+
+.stream {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png');
+}
+
+.portfolio {
+  padding-bottom: 30px;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.footer {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png');
+  font-size: 0.8em;
+	padding-right:40px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#photographyBy {
+  display: block;
+  text-align: right;
+}
+
+.footer ul {
+  list-style: none;
+}
+img{
+  width: 200px;
+  height: 150px;
+}
+h1,p{
+  color:wheat;
+}
